@@ -1,0 +1,61 @@
+h1
+{
+    color:brown
+
+    
+}
+
+.header{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    border:solid;
+
+}
+.header *{
+    border : solid;
+}
+
+.Grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-color: #808080;
+}
+.Menu{
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.Menuli{
+    margin: 60px;
+}
+
+.item{
+    position: relative;
+
+}
+.item p{
+    position: absolute;
+    top : 50%;
+    left :50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 2;
+
+}
+
+
